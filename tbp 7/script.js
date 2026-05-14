@@ -1,7 +1,7 @@
 const agaclar = [
     {
-        ad: "Kelek Ağacı",
-        bilgi: "2014 yılında dikildi. Ortalama boyu 6 metredir.",
+        ad: "Mavi Ladin (Picea Pungens)",
+        bilgi: "7-10 yaş aralığındadır.En dikkat çekici özelliği, yapraklarının üzerindeki mumsu tabaka sayesinde oluşan gümüşi-mavi veya turkuaz rengidir. İğne yaprakları dört köşeli, oldukça sert ve uçları batıcı bir yapıdadır.Soğuk iklimlere, rüzgara ve şehir havasındaki kirliliğe karşı oldukça dirençlidir.",
         resim: "images/agac7.jpg"
     },
 ];
