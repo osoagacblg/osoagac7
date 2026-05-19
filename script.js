@@ -1,6 +1,6 @@
 const agaclar = [
     {
-        ad: "Mavi Ladin (Picea Pungens)",
+        ad: 'Mavi Ladin (<span class="bilimsel">Picea pungens</span>)',
         bilgi: "7-10 yaş aralığındadır.En dikkat çekici özelliği, yapraklarının üzerindeki mumsu tabaka sayesinde oluşan gümüşi-mavi veya turkuaz rengidir. İğne yaprakları dört köşeli, oldukça sert ve uçları batıcı bir yapıdadır.Soğuk iklimlere, rüzgara ve şehir havasındaki kirliliğe karşı oldukça dirençlidir.",
         resim: "images/agac7.jpg"
     },
@@ -13,7 +13,7 @@ function getId() {
 
 function agaciGoster(id) {
     const agac = agaclar[id - 1];
-    document.getElementById("agacAdi").innerText = agac.ad;
+    document.getElementById("agacAdi").innerHTML = agac.ad;
     document.getElementById("agacBilgi").innerText = agac.bilgi;
     document.getElementById("agacResim").src = agac.resim;
 }
